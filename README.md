@@ -52,8 +52,10 @@ Ensure you have the following installed on your system:
     git clone https://github.com/your-username/star-wars-characters.git
     cd star-wars-characters
 2. **Install dependencies:**
+    ```bash
     npm install
 3. **Start the development server:**
+    ```bash
     npm start
 4. **Open your browser and navigate to:**
     http://localhost:3000
