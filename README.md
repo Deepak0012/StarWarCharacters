@@ -49,7 +49,7 @@ Ensure you have the following installed on your system:
 
 1. **Clone the repository:**  
    ```bash
-    git clone https://github.com/your-username/star-wars-characters.git
+    git clone https://github.com/Deepak0012/star-wars-characters.git
     cd star-wars-characters
 2. **Install dependencies:**
     ```bash
