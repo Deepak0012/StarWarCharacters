@@ -1,0 +1,78 @@
+/* Character Details Card Styling */
+.character-details-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: left;
+  }
+  
+  .character-details-container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .character-details-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .character-details-header h1 {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .character-details-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .character-details-list li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .character-details-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .character-details-footer a, .favourites-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .character-details-footer a:hover {
+    background-color: #0056b3;
+  }
+  
+  .favourites-btn {
+    border: none;
+    background-color: #dc3445;
+    cursor: pointer;
+    padding: 7px 16px;
+    font-size: 13px;
+    margin: 10px 0;
+  }
+
+  .favourites-btn:hover {
+    background-color: #b61727;
+  }
+
+  .favourites-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# Star Wars Characters App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is a React-based application that utilizes the SWAPI (Star Wars API) to display details about characters from the Star Wars universe. Users can explore character information, including films and starships, and maintain a personalized favourites list.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Character Listing**  
+  Browse a list of Star Wars characters with pagination and search functionality.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Detailed Character View**  
+  View comprehensive details about a character, including:
+  - Name, gender, hair color, eye color, height, and home planet.
+  - Films they appeared in.
+  - Starships they piloted.
 
-### `npm test`
+- **Favourites Management**  
+  Add characters to a favourites list, view the list, and remove characters as needed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Responsive Design**  
+  Optimized for both desktop and mobile screens.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend**: React, TypeScript  
+- **API Calls**: Axios  
+- **Routing**: React Router  
+- **State Management**: Local Storage (for favourites functionality)  
+- **Styling**: CSS Modules  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ensure you have the following installed on your system:
+- **Node.js** (version 14 or later)
+- **npm** (version 7 or later)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation and running the application
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Clone the repository:**  
+   ```bash
+    git clone https://github.com/your-username/star-wars-characters.git
+    cd star-wars-characters
+2. **Install dependencies:**
+    npm install
+3. **Start the development server:**
+    npm start
+4. **Open your browser and navigate to:**
+    http://localhost:3000
